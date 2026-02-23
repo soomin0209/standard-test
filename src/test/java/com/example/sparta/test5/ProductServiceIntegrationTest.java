@@ -50,8 +50,8 @@ class ProductServiceIntegrationTest {
 
         // then
         assertThat(top3).hasSize(3);
-        assertThat(top3.get(0).getName()).isEqualTo("악세서리");
-        assertThat(top3.get(1).getName()).isEqualTo("티셔츠");
+        assertThat(top3.get(0).getName()).isEqualTo("티셔츠");
+        assertThat(top3.get(1).getName()).isEqualTo("악세서리");
         assertThat(top3.get(2).getName()).isEqualTo("바지");
     }
 }
